@@ -1,19 +1,10 @@
 .table-container {
-  padding: 2rem;
+  /* padding: 2rem; */
   max-width: 100%;
   overflow-x: auto;
 }
 
-.top-content{
-    margin-bottom: 1rem;
-}
 
-.table-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  /* margin-bottom: 1rem; */
-  color: #000;
-}
 
 .leads-table {
   width: 100%;
@@ -25,14 +16,14 @@
 
 .leads-table th,
 .leads-table td {
-  padding:20px;  /* ⬅️ increased padding here */
+  padding:20px;  
   border-bottom: 1px solid #ddd;
   text-align: left;
 }
 
 .leads-table th {
-  background-color: #f9f9f9;
-color: #939393;
+     color: #fff;
+    background-color: var(--primary-color);
 }
 
 .leads-table tr:hover {
@@ -52,9 +43,9 @@ color: #939393;
   display: flex;
   align-items: center;
   padding: 8px 16px;
-  border: 1px solid #007bff;
+  border: 1px solid #0d6493;
   background-color: white;
-  color: #007bff;
+  color: #0d6493;
   cursor: pointer;
   border-radius: 4px;
   font-weight: 500;
@@ -62,7 +53,7 @@ color: #939393;
 }
 
 .lead-buttons button:hover {
-  background-color: #007bff;
+  background-color: #0d6493;
   color: white;
 }
 

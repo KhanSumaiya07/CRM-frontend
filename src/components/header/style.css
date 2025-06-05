@@ -4,11 +4,15 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 }
 
 .logo{
-    height: 40px;
-    width: 175px;
+    height: 35px;
+    width: 150px;
 }
 
 img{
@@ -45,6 +49,8 @@ input{
 .search-btn input{
     padding: 0;
     border: none;
+    background: transparent;
+    color: #fff;
 }
 
 .profile-user{

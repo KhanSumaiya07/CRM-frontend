@@ -9,14 +9,15 @@ const Header = () => {
             <img src="/eduwire-white-logo.png" alt="" />
         </div>
         <div className='header-right'>
-            <div className='search-btn'>
+            {/* <div className='search-btn'>
                 <input type="text" placeholder='search...' />
                 <Search />
-            </div>
-            <div className='notification-btn'>
+            </div> */}
+            
                <BellRing />
                {/* <span>2</span> */}
-            </div>
+           
+            <span>Hello, John</span>
              <div className='profile-user'>
               <UserRound />
             </div>
