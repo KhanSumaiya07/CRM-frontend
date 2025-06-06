@@ -15,7 +15,7 @@ import {
 // import "./dashboard.css"
 
 export default function Dashboard() {
-  const [dateRange, setDateRange] = useState("01/04/2025 - 05/06/2025")
+  // const [dateRange, setDateRange] = useState("")
 
   // Using the leads data from your original code
   const stats = [
@@ -71,7 +71,8 @@ export default function Dashboard() {
             <div className="filter-item date-filter">
               <button className="filter-button">
                 <Calendar className="filter-icon" />
-                {dateRange}
+                {/* {dateRange} */}
+                <p>01/04/2025 - 05/06/2025</p>
                 <ChevronDown className="chevron-icon" />
               </button>
             </div>
